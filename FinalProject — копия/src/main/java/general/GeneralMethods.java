@@ -1,0 +1,48 @@
+package general;
+
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.touch.WaitOptions;
+import io.appium.java_client.touch.offset.PointOption;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
+
+public class GeneralMethods extends DriverManager {
+    //Метод ожидания появления элемента
+    public static WebElement waitForElementPresentRefact(By by, int timeoutInSeconds) {
+        WebDriverWait wait = new WebDriverWait(driver,  timeoutInSeconds);
+        return wait.until(
+                ExpectedConditions.presenceOfElementLocated(by) //ожидает элемент
+        );
+    }
+
+    //Движение внутри элемента (движение влево)
+    public static void swipeElementLeft(By by){
+        //Ищем элемент
+        WebElement element = waitForElementPresentRefact(by,5);
+
+        //Определяем границы элемента
+
+        //Получаем координаты верхнего левого угла элемента
+        int left_x = element.getLocation().getX();
+        int upper_y = element.getLocation().getY();
+
+        //Находим верхнюю и нижнюю часть блока и делаем swipe по середине
+        int right_x = left_x + element.getSize().getWidth();
+        int lower_y = upper_y + element.getSize().getHeight();
+        int middle_y = (upper_y + lower_y) /2;
+
+        //Все действие описываем внутри элемента
+        //Здесь описывается движение по экрану влево
+        TouchAction action = new TouchAction(driver);
+        action
+                .press(PointOption.point(right_x,middle_y))
+                .waitAction(WaitOptions.waitOptions(Duration.ofSeconds(2)))
+                .moveTo(PointOption.point(left_x,middle_y))
+                .release()
+                .perform();
+    }
+}
