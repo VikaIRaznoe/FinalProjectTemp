@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Mar 25 22:14:05 MSK 2020","Wed Mar 25 22:14:07 MSK 2020","2373","Default Suite","FinalProject","tests.FirstTest","tests.FirstTest","checkFlipScreen","checkFlipScreen","Итоговая работа"
+"passed","Wed Mar 25 22:14:17 MSK 2020","Wed Mar 25 22:14:19 MSK 2020","1570","Default Suite","FinalProject","tests.FirstTest","tests.FirstTest","shareTest","shareTest","Итоговая работа"
+"unknown","Wed Mar 25 22:13:20 MSK 2020","Wed Mar 25 22:13:20 MSK 2020","1","Default Suite","FinalProject","tests.FirstTest","tests.FirstTest","modificationTest","modificationTest","Итоговая работа"
+"passed","Wed Mar 25 22:13:44 MSK 2020","Wed Mar 25 22:13:55 MSK 2020","11195","Default Suite","FinalProject","tests.FirstTest","tests.FirstTest","creatureTest","creatureTest","Итоговая работа"

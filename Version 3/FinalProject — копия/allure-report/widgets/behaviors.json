@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "0d650b312b103adc9c71d88cac8848af",
+    "name" : "Проект #1",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 1,
+      "total" : 4
+    }
+  } ]
+}

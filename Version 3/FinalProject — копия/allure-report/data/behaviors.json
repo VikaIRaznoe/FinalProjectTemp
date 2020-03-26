@@ -1,0 +1,77 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Проект #1",
+    "children" : [ {
+      "name" : "Модификация в OneList",
+      "children" : [ {
+        "name" : "modificationTest",
+        "uid" : "35db0905900e73ac",
+        "parentUid" : "9d145e9a65672fd06dd5052b702aa5d0",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1585163600922,
+          "stop" : 1585163600923,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9d145e9a65672fd06dd5052b702aa5d0"
+    }, {
+      "name" : "Создание в OneList",
+      "children" : [ {
+        "name" : "creatureTest",
+        "uid" : "a3fefb8f81f08fdb",
+        "parentUid" : "67b2fab27ca7fafe969224694a8a04f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585163624213,
+          "stop" : 1585163635408,
+          "duration" : 11195
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "67b2fab27ca7fafe969224694a8a04f1"
+    }, {
+      "name" : "Проверка и переворот экрана в OneList",
+      "children" : [ {
+        "name" : "checkFlipScreen",
+        "uid" : "cb073b345e6f3711",
+        "parentUid" : "a82d5562a054f23d407a2b5aefcac5fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585163645422,
+          "stop" : 1585163647795,
+          "duration" : 2373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a82d5562a054f23d407a2b5aefcac5fb"
+    }, {
+      "name" : "Share в OneList",
+      "children" : [ {
+        "name" : "shareTest",
+        "uid" : "d16a39f1d7d2b06b",
+        "parentUid" : "c1431b9839703195f5297cb5e5560b4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585163657805,
+          "stop" : 1585163659375,
+          "duration" : 1570
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c1431b9839703195f5297cb5e5560b4a"
+    } ],
+    "uid" : "0d650b312b103adc9c71d88cac8848af"
+  } ]
+}
