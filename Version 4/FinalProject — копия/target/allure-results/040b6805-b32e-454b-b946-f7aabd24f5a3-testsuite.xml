@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1584878503201" stop="1584878558197" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : FinalProject</name>
+    <title>Default Suite : FinalProject</title>
+    <test-cases>
+        <test-case start="1584878534749" stop="1584878548073" status="passed">
+            <name>creatureTest</name>
+            <description></description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="FinalProject"/>
+                <label name="testClass" value="tests.FirstTest"/>
+                <label name="testMethod" value="creatureTest"/>
+                <label name="host" value="MacBook-Pro-Viktoria.local"/>
+                <label name="thread" value="91839@MacBook-Pro-Viktoria.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1584878558087" stop="1584878558089" status="passed">
+            <name>modificationTest</name>
+            <description></description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="FinalProject"/>
+                <label name="testClass" value="tests.FirstTest"/>
+                <label name="testMethod" value="modificationTest"/>
+                <label name="host" value="MacBook-Pro-Viktoria.local"/>
+                <label name="thread" value="91839@MacBook-Pro-Viktoria.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
