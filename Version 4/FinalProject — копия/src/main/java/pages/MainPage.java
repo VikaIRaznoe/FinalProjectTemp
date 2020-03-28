@@ -1,17 +1,13 @@
 package pages;
 
 import general.DriverManager;
-import general.DriverManager2;
 import general.GeneralMethods;
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.MobileBy;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.clipboard.HasClipboard;
-import io.qameta.allure.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
@@ -90,51 +86,13 @@ public class MainPage extends BasePage{
         elementShare.click();
     }
 
-    public void findTextOfList() throws MalformedURLException {
-        //https://appium.io/docs/en/commands/device/clipboard/get-clipboard/
-        //driver.getClipboardText();
-
-//        String appiumURL = new URL("http://127.0.0.1:4723/wd/hub");
-        DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("platformName", "Android");
-        capabilities.setCapability("deviceName", "Android Emulator");
-        capabilities.setCapability("automationName", "UiAutomator2");
-//        capabilities.setCapability("avd", AVD_NAME);
-//        capabilities.setCapability("app", ANDROID_APP);
-
-        AndroidDriver driver = new AndroidDriver(new URL(APPIUM_SERVER), capabilities);
-        automateClipboard(driver);
-    }
-
-    private void automateClipboard(AppiumDriver driver) {
-        WebDriverWait wait = new WebDriverWait(driver, 5);
-
-        try {
-//            wait.until(ExpectedConditions.presenceOfElementLocated(clipboardNav)).click();
-//
-//            String text = "Hello World";
-//            ((HasClipboard) driver).setClipboardText(text);
-//            wait.until(ExpectedConditions.presenceOfElementLocated(refreshClipboardBtn)).click();
-//            By clipboardText = MobileBy.AccessibilityId(text);
-//            Assert.assertEquals(driver.findElement(clipboardText).getText(), text);
-
-            String text = "Reminder 2";
-//            driver.findElement(clipboardInput).sendKeys(text);
-            //driver.findElement(elementUserList).click();
-//            try {
-//                driver.hideKeyboard();
-//            } catch (Exception ign) {}
-            driver.findElement(elementCopyToClipBoard).click();
-            Assert.assertEquals(((HasClipboard) driver).getClipboardText(), text);
-
-        } finally {
-            driver.quit();
+    public void findTextOfList(String[] Reminder){
+        DriverManager.getDriver().getClipboardText();
+        String text = DriverManager.getDriver().getClipboardText();
+        boolean find = false;
+        for(String strReminder: Reminder){
+            find = text.trim().contains(strReminder.trim());
+            System.out.println("List contains: " + strReminder.trim() + " : " + find);
         }
-    }
-
-    public void temp(){
-        DriverManager2.getDriver().getClipboardText();
-        String text = DriverManager2.getDriver().getClipboardText();
-        System.out.println(text);
     }
 }

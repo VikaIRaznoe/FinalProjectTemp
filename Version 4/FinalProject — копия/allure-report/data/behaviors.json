@@ -7,12 +7,12 @@
       "name" : "Модификация в OneList",
       "children" : [ {
         "name" : "modificationTest",
-        "uid" : "35db0905900e73ac",
+        "uid" : "9c667f966caf524",
         "parentUid" : "9d145e9a65672fd06dd5052b702aa5d0",
         "status" : "unknown",
         "time" : {
-          "start" : 1585163600922,
-          "stop" : 1585163600923,
+          "start" : 1585395913148,
+          "stop" : 1585395913149,
           "duration" : 1
         },
         "flaky" : false,
@@ -24,13 +24,13 @@
       "name" : "Создание в OneList",
       "children" : [ {
         "name" : "creatureTest",
-        "uid" : "a3fefb8f81f08fdb",
+        "uid" : "2e9c04820285feb",
         "parentUid" : "67b2fab27ca7fafe969224694a8a04f1",
         "status" : "passed",
         "time" : {
-          "start" : 1585163624213,
-          "stop" : 1585163635408,
-          "duration" : 11195
+          "start" : 1585395933144,
+          "stop" : 1585395944775,
+          "duration" : 11631
         },
         "flaky" : false,
         "newFailed" : false,
@@ -41,13 +41,13 @@
       "name" : "Проверка и переворот экрана в OneList",
       "children" : [ {
         "name" : "checkFlipScreen",
-        "uid" : "cb073b345e6f3711",
+        "uid" : "252b98188a49ef72",
         "parentUid" : "a82d5562a054f23d407a2b5aefcac5fb",
         "status" : "passed",
         "time" : {
-          "start" : 1585163645422,
-          "stop" : 1585163647795,
-          "duration" : 2373
+          "start" : 1585395954792,
+          "stop" : 1585395957082,
+          "duration" : 2290
         },
         "flaky" : false,
         "newFailed" : false,
@@ -58,13 +58,13 @@
       "name" : "Share в OneList",
       "children" : [ {
         "name" : "shareTest",
-        "uid" : "d16a39f1d7d2b06b",
+        "uid" : "d4d73988b5ac77c7",
         "parentUid" : "c1431b9839703195f5297cb5e5560b4a",
         "status" : "passed",
         "time" : {
-          "start" : 1585163657805,
-          "stop" : 1585163659375,
-          "duration" : 1570
+          "start" : 1585395967091,
+          "stop" : 1585395969267,
+          "duration" : 2176
         },
         "flaky" : false,
         "newFailed" : false,
