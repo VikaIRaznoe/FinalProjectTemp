@@ -70,13 +70,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="94" column="46" selection-start-line="94" selection-start-column="46" selection-end-line="94" selection-end-column="46" />
+            <state relative-caret-position="154">
+              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1208#1209#0" expanded="true" />
+                <element signature="e#1278#1279#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="67" column="32" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+            <state relative-caret-position="232">
+              <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#creatureTest#0;class#FirstTest#0" />
@@ -128,8 +130,8 @@
         <option value="$PROJECT_DIR$/src/test/java/tests/Base2Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/general/DriverManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/FirstTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/FirstTest.java" />
       </list>
     </option>
   </component>
@@ -260,8 +262,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -400,27 +402,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest - 2020.03.28 at 02h 24m 02s.xml">
-      <configuration name="FirstTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest - 2020.03.28 at 02h 27m 20s.xml">
-      <configuration name="FirstTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest - 2020.03.28 at 14h 17m 21s.xml">
-      <configuration name="FirstTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest - 2020.03.28 at 14h 20m 10s.xml">
-      <configuration name="FirstTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest - 2020.03.28 at 14h 23m 10s.xml">
-      <configuration name="FirstTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest - 2020.03.28 at 14h 25m 29s.xml">
-      <configuration name="FirstTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FirstTest - 2020.03.28 at 14h 28m 12s.xml">
-      <configuration name="FirstTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="FirstTest - 2020.03.28 at 14h 33m 08s.xml">
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
@@ -428,6 +409,27 @@
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="FirstTest - 2020.03.28 at 14h 42m 00s.xml">
+      <configuration name="FirstTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest - 2020.03.28 at 14h 46m 09s.xml">
+      <configuration name="FirstTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest - 2020.03.28 at 17h 30m 37s.xml">
+      <configuration name="FirstTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest - 2020.03.28 at 17h 35m 47s.xml">
+      <configuration name="FirstTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest - 2020.03.28 at 17h 41m 35s.xml">
+      <configuration name="FirstTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest - 2020.03.28 at 17h 43m 56s.xml">
+      <configuration name="FirstTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest - 2020.03.28 at 17h 47m 29s.xml">
+      <configuration name="FirstTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FirstTest - 2020.03.28 at 18h 11m 44s.xml">
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -442,8 +444,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="806" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32331902" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3319027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -452,7 +455,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28151262" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28151262" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39915967" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -536,24 +539,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/FirstTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="67" column="32" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+        <state relative-caret-position="154">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#creatureTest#0;class#FirstTest#0" />
-            <element signature="method#modificationTest#0;class#FirstTest#0" />
+            <element signature="e#1208#1209#0" expanded="true" />
+            <element signature="e#1278#1279#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="94" column="46" selection-start-line="94" selection-start-column="46" selection-end-line="94" selection-end-column="46" />
+        <state relative-caret-position="232">
+          <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#creatureTest#0;class#FirstTest#0" />
+            <element signature="method#modificationTest#0;class#FirstTest#0" />
           </folding>
         </state>
       </provider>

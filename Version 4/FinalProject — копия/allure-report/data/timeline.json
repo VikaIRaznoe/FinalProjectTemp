@@ -4,61 +4,117 @@
   "children" : [ {
     "name" : "MacBook-Pro-Viktoria.local",
     "children" : [ {
-      "name" : "58249@MacBook-Pro-Viktoria.local.main(1)",
+      "name" : "68143@MacBook-Pro-Viktoria.local.main(1)",
       "children" : [ {
-        "name" : "creatureTest",
-        "uid" : "2e9c04820285feb",
-        "parentUid" : "4b39bcf5cb2691046480f4d52f847739",
+        "name" : "shareTest",
+        "uid" : "4cd92d62066ab3",
+        "parentUid" : "7e6e9e1f555c92cbfc91f40d2004d589",
         "status" : "passed",
         "time" : {
-          "start" : 1585395933144,
-          "stop" : 1585395944775,
-          "duration" : 11631
+          "start" : 1585408297221,
+          "stop" : 1585408304320,
+          "duration" : 7099
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "modificationTest",
-        "uid" : "9c667f966caf524",
-        "parentUid" : "4b39bcf5cb2691046480f4d52f847739",
+        "uid" : "3f6ad5438bec223",
+        "parentUid" : "7e6e9e1f555c92cbfc91f40d2004d589",
         "status" : "unknown",
         "time" : {
-          "start" : 1585395913148,
-          "stop" : 1585395913149,
-          "duration" : 1
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "shareTest",
-        "uid" : "d4d73988b5ac77c7",
-        "parentUid" : "4b39bcf5cb2691046480f4d52f847739",
-        "status" : "passed",
-        "time" : {
-          "start" : 1585395967091,
-          "stop" : 1585395969267,
-          "duration" : 2176
+          "start" : 1585408237827,
+          "stop" : 1585408237829,
+          "duration" : 2
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "checkFlipScreen",
-        "uid" : "252b98188a49ef72",
-        "parentUid" : "4b39bcf5cb2691046480f4d52f847739",
+        "uid" : "463804bf799b08fc",
+        "parentUid" : "7e6e9e1f555c92cbfc91f40d2004d589",
         "status" : "passed",
         "time" : {
-          "start" : 1585395954792,
-          "stop" : 1585395957082,
-          "duration" : 2290
+          "start" : 1585408284965,
+          "stop" : 1585408292212,
+          "duration" : 7247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "creatureTest",
+        "uid" : "7ef031cee9b6d220",
+        "parentUid" : "7e6e9e1f555c92cbfc91f40d2004d589",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585408263226,
+          "stop" : 1585408279955,
+          "duration" : 16729
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "4b39bcf5cb2691046480f4d52f847739"
+      "uid" : "7e6e9e1f555c92cbfc91f40d2004d589"
+    }, {
+      "name" : "68460@MacBook-Pro-Viktoria.local.main(1)",
+      "children" : [ {
+        "name" : "modificationTest",
+        "uid" : "90bd4d9e61ba48ad",
+        "parentUid" : "4acd16865e24ecd7adc524aa5a7c57b2",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1585408379396,
+          "stop" : 1585408379398,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shareTest",
+        "uid" : "838102c1546204ed",
+        "parentUid" : "4acd16865e24ecd7adc524aa5a7c57b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585408439328,
+          "stop" : 1585408446386,
+          "duration" : 7058
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "creatureTest",
+        "uid" : "a459d8b72708ef7",
+        "parentUid" : "4acd16865e24ecd7adc524aa5a7c57b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585408406484,
+          "stop" : 1585408422687,
+          "duration" : 16203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkFlipScreen",
+        "uid" : "a39db58663d45ea0",
+        "parentUid" : "4acd16865e24ecd7adc524aa5a7c57b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585408427700,
+          "stop" : 1585408434320,
+          "duration" : 6620
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4acd16865e24ecd7adc524aa5a7c57b2"
     } ],
     "uid" : "216f544ce3ec8fb342fa592298c1e1d8"
   } ]

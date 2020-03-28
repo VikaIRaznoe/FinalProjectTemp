@@ -5,6 +5,7 @@ import general.GeneralMethods;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.clipboard.HasClipboard;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -13,6 +14,8 @@ import org.testng.Assert;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import static general.GeneralMethods.waitForElementPresentRefact;
 
@@ -31,10 +34,12 @@ public class MainPage extends BasePage{
         waitForElementPresentRefact(elementTODO,5).click();
     }
 
+    @Step
     public void openUserList(){
         waitForElementPresentRefact(elementUserList,5).click();
     }
 
+    @Step
     public void shareList(){
         waitForElementPresentRefact(elementShareList,5).click();
         waitForElementPresentRefact(elementCopyToClipBoard,5).click();
@@ -81,18 +86,39 @@ public class MainPage extends BasePage{
        element.click();
     }
 
+    @Step
     public void clickButtonShare(){
         WebElement elementShare = waitForElementPresentRefact(elementShareList,5);
         elementShare.click();
     }
 
-    public void findTextOfList(String[] Reminder){
+//    public void findTextOfList(String[] Reminder){
+//        DriverManager.getDriver().getClipboardText();
+//        String text = DriverManager.getDriver().getClipboardText();
+//        boolean find = false;
+//        for(String strReminder: Reminder){
+//            find = text.trim().contains(strReminder.trim());
+//            System.out.println("List contains: " + strReminder.trim() + " : " + find);
+//        }
+//    }
+
+    //Ищет одно слово
+    public void findTextOfList(String text){
+        Pattern pattern = Pattern.compile(".*" + text + ".*");
+
+        Matcher matcher = pattern.matcher("Here is Rwminder 2 pattern!");
+        System.out.println(matcher.find());
+    }
+
+    //Ищет несколько слов
+    @Step
+    public void findArrayTextOfList(String[] Reminder){
         DriverManager.getDriver().getClipboardText();
         String text = DriverManager.getDriver().getClipboardText();
-        boolean find = false;
-        for(String strReminder: Reminder){
-            find = text.trim().contains(strReminder.trim());
-            System.out.println("List contains: " + strReminder.trim() + " : " + find);
+        for(String slovo: Reminder){
+            Pattern pattern = Pattern.compile(".*" + slovo + ".*");
+            Matcher matcher = pattern.matcher("Here is Rwminder 2 pattern!");
+            System.out.println(matcher.find());
         }
     }
 }

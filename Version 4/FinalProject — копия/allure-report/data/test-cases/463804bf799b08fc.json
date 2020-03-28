@@ -1,12 +1,12 @@
 {
-  "uid" : "252b98188a49ef72",
+  "uid" : "463804bf799b08fc",
   "name" : "checkFlipScreen",
   "fullName" : "tests.FirstTest.checkFlipScreen",
   "historyId" : "d3a197d2fae2a631f1bc34021f0340cc",
   "time" : {
-    "start" : 1585395954792,
-    "stop" : 1585395957082,
-    "duration" : 2290
+    "start" : 1585408284965,
+    "stop" : 1585408292212,
+    "duration" : 7247
   },
   "description" : "Итоговая работа",
   "descriptionHtml" : "<p>Итоговая работа</p>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1585395913227,
-      "stop" : 1585395923112,
-      "duration" : 9885
+      "start" : 1585408247926,
+      "stop" : 1585408258213,
+      "duration" : 10287
     },
     "description" : "",
     "status" : "passed",
@@ -33,9 +33,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1585395969268,
-      "stop" : 1585395969364,
-      "duration" : 96
+      "start" : 1585408304322,
+      "stop" : 1585408304450,
+      "duration" : 128
     },
     "description" : "",
     "status" : "passed",
@@ -70,7 +70,7 @@
     "value" : "MacBook-Pro-Viktoria.local"
   }, {
     "name" : "thread",
-    "value" : "58249@MacBook-Pro-Viktoria.local.main(1)"
+    "value" : "68143@MacBook-Pro-Viktoria.local.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -89,14 +89,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "252b98188a49ef72.json",
+  "source" : "463804bf799b08fc.json",
   "parameterValues" : [ ]
 }

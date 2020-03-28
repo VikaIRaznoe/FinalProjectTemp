@@ -1,12 +1,12 @@
 {
-  "uid" : "9c667f966caf524",
+  "uid" : "90bd4d9e61ba48ad",
   "name" : "modificationTest",
   "fullName" : "tests.FirstTest.modificationTest",
   "historyId" : "8dcd76092b4f1ad32c9eb74936e71d84",
   "time" : {
-    "start" : 1585395913148,
-    "stop" : 1585395913149,
-    "duration" : 1
+    "start" : 1585408379396,
+    "stop" : 1585408379398,
+    "duration" : 2
   },
   "description" : "Итоговая работа",
   "descriptionHtml" : "<p>Итоговая работа</p>\n",
@@ -38,7 +38,7 @@
     "value" : "MacBook-Pro-Viktoria.local"
   }, {
     "name" : "thread",
-    "value" : "58249@MacBook-Pro-Viktoria.local.main(1)"
+    "value" : "68460@MacBook-Pro-Viktoria.local.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -61,10 +61,18 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ ],
+    "retries" : [ {
+      "uid" : "3f6ad5438bec223",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1585408237827,
+        "stop" : 1585408237829,
+        "duration" : 2
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9c667f966caf524.json",
+  "source" : "90bd4d9e61ba48ad.json",
   "parameterValues" : [ ]
 }
