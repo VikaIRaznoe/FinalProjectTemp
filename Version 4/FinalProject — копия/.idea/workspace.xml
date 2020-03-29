@@ -73,12 +73,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+            <state relative-caret-position="341">
+              <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1208#1209#0" expanded="true" />
-                <element signature="e#1278#1279#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,8 +97,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
+            <state relative-caret-position="118">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#creatureTest#0;class#FirstTest#0" />
@@ -151,11 +149,6 @@
             <path>
               <item name="FinalProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="FinalProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="FinalProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FinalProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="allure-results" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FinalProject" type="b2602c69:ProjectViewProjectNode" />
@@ -402,34 +395,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest - 2020.03.28 at 14h 33m 08s.xml">
+    <history-entry file="FirstTest - 2020.03.30 at 00h 42m 01s.xml">
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest - 2020.03.28 at 14h 35m 28s.xml">
+    <history-entry file="FirstTest - 2020.03.30 at 00h 45m 02s.xml">
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest - 2020.03.28 at 14h 42m 00s.xml">
+    <history-entry file="FirstTest - 2020.03.30 at 00h 46m 47s.xml">
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest - 2020.03.28 at 14h 46m 09s.xml">
+    <history-entry file="FirstTest - 2020.03.30 at 01h 01m 52s.xml">
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest - 2020.03.28 at 17h 30m 37s.xml">
+    <history-entry file="FirstTest - 2020.03.30 at 01h 06m 21s.xml">
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest - 2020.03.28 at 17h 35m 47s.xml">
+    <history-entry file="FirstTest - 2020.03.30 at 01h 11m 41s.xml">
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest - 2020.03.28 at 17h 41m 35s.xml">
+    <history-entry file="FirstTest - 2020.03.30 at 01h 15m 10s.xml">
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest - 2020.03.28 at 17h 43m 56s.xml">
+    <history-entry file="FirstTest - 2020.03.30 at 01h 17m 37s.xml">
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest - 2020.03.28 at 17h 47m 29s.xml">
+    <history-entry file="FirstTest - 2020.03.30 at 01h 19m 15s.xml">
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest - 2020.03.28 at 18h 11m 44s.xml">
+    <history-entry file="FirstTest - 2020.03.30 at 01h 22m 33s.xml">
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -444,9 +437,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="806" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3319027" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35622317" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -455,7 +447,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28151262" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28151262" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39915967" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -541,20 +533,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        <state relative-caret-position="341">
+          <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1208#1209#0" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
+        <state relative-caret-position="118">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#creatureTest#0;class#FirstTest#0" />

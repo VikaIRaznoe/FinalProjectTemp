@@ -92,32 +92,22 @@ public class MainPage extends BasePage{
         elementShare.click();
     }
 
-//    public void findTextOfList(String[] Reminder){
-//        DriverManager.getDriver().getClipboardText();
-//        String text = DriverManager.getDriver().getClipboardText();
-//        boolean find = false;
-//        for(String strReminder: Reminder){
-//            find = text.trim().contains(strReminder.trim());
-//            System.out.println("List contains: " + strReminder.trim() + " : " + find);
-//        }
-//    }
-
-    //Ищет одно слово
+    //работает: Ищет слово
     public void findTextOfList(String text){
-        Pattern pattern = Pattern.compile(".*" + text + ".*");
-
-        Matcher matcher = pattern.matcher("Here is Rwminder 2 pattern!");
-        System.out.println(matcher.find());
+        String textFromList = DriverManager.getDriver().getClipboardText();
+        boolean got = textFromList.contains(text);
+//        boolean got = textFromList.contains("[A-Za-z\\s\\d]");
+        System.out.println("String contains " + text + ": " + got);
     }
 
     //Ищет несколько слов
     @Step
     public void findArrayTextOfList(String[] Reminder){
         DriverManager.getDriver().getClipboardText();
-        String text = DriverManager.getDriver().getClipboardText();
+        String textFromList = DriverManager.getDriver().getClipboardText();
         for(String slovo: Reminder){
-            Pattern pattern = Pattern.compile(".*" + slovo + ".*");
-            Matcher matcher = pattern.matcher("Here is Rwminder 2 pattern!");
+            Pattern pattern = Pattern.compile(slovo);
+            Matcher matcher = pattern.matcher(textFromList);
             System.out.println(matcher.find());
         }
     }
