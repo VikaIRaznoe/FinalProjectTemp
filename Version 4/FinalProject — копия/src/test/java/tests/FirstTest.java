@@ -65,10 +65,12 @@ public class FirstTest extends BaseTest{
         //4) Проверить с помощью команды Appium driver.getClipboardText() наличие текста в буфере обмена
         // и что в нем отображено содержимое вкладки "List 1"
         //ищет несколько слов
-        String[] strReminder = {"vika","Reminder 2"};
+        System.out.println("Ищем несколько слов");
+        String[] strReminder = {"vika","x Reminder 2"};
         mainPage.findArrayTextOfList(strReminder);
         //ищет одно слово
-        mainPage.findTextOfList("Reminder");
+        System.out.println("Ищем одно слово");
+        mainPage.findTextOfListRefact("x Reminder 2");
     }
 
     @Test(priority = 2)

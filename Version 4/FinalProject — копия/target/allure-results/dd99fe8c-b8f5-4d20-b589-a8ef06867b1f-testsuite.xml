@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1585661411571" stop="1585661477508" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : FinalProject</name>
+    <title>Default Suite : FinalProject</title>
+    <test-cases>
+        <test-case start="1585661421586" stop="1585661421588" status="pending">
+            <name>modificationTest</name>
+            <description></description>
+            <failure>
+                <message>Test not implemented yet</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="MacBook-Pro-Viktoria.local"/>
+                <label name="thread" value="33395@MacBook-Pro-Viktoria.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1585661441361" stop="1585661452952" status="passed">
+            <name>creatureTest</name>
+            <description></description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="FinalProject"/>
+                <label name="testClass" value="tests.FirstTest"/>
+                <label name="testMethod" value="creatureTest"/>
+                <label name="host" value="MacBook-Pro-Viktoria.local"/>
+                <label name="thread" value="33395@MacBook-Pro-Viktoria.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1585661462965" stop="1585661465243" status="passed">
+            <name>checkFlipScreen</name>
+            <description></description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="FinalProject"/>
+                <label name="testClass" value="tests.FirstTest"/>
+                <label name="testMethod" value="checkFlipScreen"/>
+                <label name="host" value="MacBook-Pro-Viktoria.local"/>
+                <label name="thread" value="33395@MacBook-Pro-Viktoria.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1585661475256" stop="1585661477396" status="passed">
+            <name>shareTest</name>
+            <description></description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="FinalProject"/>
+                <label name="testClass" value="tests.FirstTest"/>
+                <label name="testMethod" value="shareTest"/>
+                <label name="host" value="MacBook-Pro-Viktoria.local"/>
+                <label name="thread" value="33395@MacBook-Pro-Viktoria.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

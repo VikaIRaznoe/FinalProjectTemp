@@ -73,10 +73,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
+            <state relative-caret-position="154">
+              <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#findTextOfList#0;class#MainPage#0" />
               </folding>
             </state>
           </provider>
@@ -97,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="364">
+              <caret line="72" column="32" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#creatureTest#0;class#FirstTest#0" />
@@ -255,8 +256,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -395,34 +396,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest - 2020.03.30 at 00h 42m 01s.xml">
+    <history-entry file="FirstTest - 2020.03.31 at 16h 31m 17s.xml">
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest - 2020.03.30 at 00h 45m 02s.xml">
+    <history-entry file="FirstTest - 2020.03.31 at 16h 32m 50s.xml">
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest - 2020.03.30 at 00h 46m 47s.xml">
+    <history-entry file="FirstTest - 2020.03.31 at 16h 41m 31s.xml">
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest - 2020.03.30 at 01h 01m 52s.xml">
+    <history-entry file="FirstTest - 2020.03.31 at 16h 45m 36s.xml">
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest - 2020.03.30 at 01h 06m 21s.xml">
+    <history-entry file="FirstTest - 2020.03.31 at 16h 47m 09s.xml">
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest - 2020.03.30 at 01h 11m 41s.xml">
+    <history-entry file="FirstTest - 2020.03.31 at 16h 51m 09s.xml">
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest - 2020.03.30 at 01h 15m 10s.xml">
+    <history-entry file="FirstTest - 2020.03.31 at 16h 54m 58s.xml">
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest - 2020.03.30 at 01h 17m 37s.xml">
+    <history-entry file="FirstTest - 2020.03.31 at 16h 56m 38s.xml">
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest - 2020.03.30 at 01h 19m 15s.xml">
+    <history-entry file="FirstTest - 2020.03.31 at 18h 35m 08s.xml">
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest - 2020.03.30 at 01h 22m 33s.xml">
+    <history-entry file="FirstTest - 2020.03.31 at 18h 37m 32s.xml">
       <configuration name="FirstTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -438,7 +439,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="806" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35622317" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38125893" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -533,18 +534,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
+        <state relative-caret-position="154">
+          <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#findTextOfList#0;class#MainPage#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="364">
+          <caret line="72" column="32" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#creatureTest#0;class#FirstTest#0" />

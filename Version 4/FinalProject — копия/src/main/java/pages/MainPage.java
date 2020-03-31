@@ -92,15 +92,31 @@ public class MainPage extends BasePage{
         elementShare.click();
     }
 
-    //работает: Ищет слово
+    //работает: Ищет слово. Работает так: ищет частичное вхождение слова.
+    //Есть слово Reminder 2. Мы вводим Reminder и поиск возвращает истину, т.к. строка содержит Reminder
     public void findTextOfList(String text){
         String textFromList = DriverManager.getDriver().getClipboardText();
         boolean got = textFromList.contains(text);
 //        boolean got = textFromList.contains("[A-Za-z\\s\\d]");
-        System.out.println("String contains " + text + ": " + got);
+//        Pattern pattern = Pattern.compile ("[a-zA-Z0-9]");
+//          Pattern pattern = Pattern.compile("[A-Za-z]\\*\\s\\d]");
+//        Pattern pattern = Pattern.compile ("[A-Za-z\\s\\d]");
+//        Pattern pattern = Pattern.compile ("[A-Za-z\\s\\d\\r]");
+        System.out.println("String from Clipboard contains " + text + ": " + got);
     }
 
-    //Ищет несколько слов
+    //работает: Ищет слово. Работает так: ищет полное вхождение слова.
+    //Есть слово Reminder 2. Мы вводим Reminder и поиск возвращает ложь, т.к. строка содержит Reminder, а не Reminder 2
+    public void findTextOfListRefact(String text){
+        String textFromList = DriverManager.getDriver().getClipboardText();
+//        System.out.println(textFromList.equals(text));
+        String[] parts = textFromList.split("\n");
+        for (String str: parts){
+            System.out.println(str.equals(text));
+        }
+    }
+
+    //работает: Ищет несколько слов
     @Step
     public void findArrayTextOfList(String[] Reminder){
         DriverManager.getDriver().getClipboardText();
@@ -109,6 +125,19 @@ public class MainPage extends BasePage{
             Pattern pattern = Pattern.compile(slovo);
             Matcher matcher = pattern.matcher(textFromList);
             System.out.println(matcher.find());
+        }
+    }
+
+    //работает: Ищет несколько слов
+    @Step
+    public void findArrayTextOfListRefact(String[] Reminder){
+        DriverManager.getDriver().getClipboardText();
+        String textFromList = DriverManager.getDriver().getClipboardText();
+        String[] parts = textFromList.split("\n");
+        for(String slovo: Reminder){
+            for (String str: parts){
+                System.out.println(slovo.equals(str));
+            }
         }
     }
 }
