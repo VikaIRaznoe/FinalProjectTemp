@@ -109,7 +109,6 @@ public class MainPage extends BasePage{
     //Есть слово Reminder 2. Мы вводим Reminder и поиск возвращает ложь, т.к. строка содержит Reminder, а не Reminder 2
     public void findTextOfListRefact(String text){
         String textFromList = DriverManager.getDriver().getClipboardText();
-//        System.out.println(textFromList.equals(text));
         String[] parts = textFromList.split("\n");
         for (String str: parts){
             System.out.println(str.equals(text));
@@ -119,7 +118,6 @@ public class MainPage extends BasePage{
     //работает: Ищет несколько слов
     @Step
     public void findArrayTextOfList(String[] Reminder){
-        DriverManager.getDriver().getClipboardText();
         String textFromList = DriverManager.getDriver().getClipboardText();
         for(String slovo: Reminder){
             Pattern pattern = Pattern.compile(slovo);
@@ -131,7 +129,6 @@ public class MainPage extends BasePage{
     //работает: Ищет несколько слов
     @Step
     public void findArrayTextOfListRefact(String[] Reminder){
-        DriverManager.getDriver().getClipboardText();
         String textFromList = DriverManager.getDriver().getClipboardText();
         String[] parts = textFromList.split("\n");
         for(String slovo: Reminder){

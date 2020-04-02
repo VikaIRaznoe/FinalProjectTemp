@@ -7,13 +7,13 @@
       "name" : "Модификация в OneList",
       "children" : [ {
         "name" : "modificationTest",
-        "uid" : "90bd4d9e61ba48ad",
+        "uid" : "5f02b7357a395946",
         "parentUid" : "9d145e9a65672fd06dd5052b702aa5d0",
         "status" : "unknown",
         "time" : {
-          "start" : 1585408379396,
-          "stop" : 1585408379398,
-          "duration" : 2
+          "start" : 1585852362946,
+          "stop" : 1585852362947,
+          "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,13 +24,13 @@
       "name" : "Создание в OneList",
       "children" : [ {
         "name" : "creatureTest",
-        "uid" : "a459d8b72708ef7",
+        "uid" : "99328e7904dc858f",
         "parentUid" : "67b2fab27ca7fafe969224694a8a04f1",
         "status" : "passed",
         "time" : {
-          "start" : 1585408406484,
-          "stop" : 1585408422687,
-          "duration" : 16203
+          "start" : 1585852388316,
+          "stop" : 1585852400287,
+          "duration" : 11971
         },
         "flaky" : false,
         "newFailed" : false,
@@ -41,13 +41,13 @@
       "name" : "Проверка и переворот экрана в OneList",
       "children" : [ {
         "name" : "checkFlipScreen",
-        "uid" : "a39db58663d45ea0",
+        "uid" : "eedd3841ec2282f7",
         "parentUid" : "a82d5562a054f23d407a2b5aefcac5fb",
         "status" : "passed",
         "time" : {
-          "start" : 1585408427700,
-          "stop" : 1585408434320,
-          "duration" : 6620
+          "start" : 1585852410303,
+          "stop" : 1585852412934,
+          "duration" : 2631
         },
         "flaky" : false,
         "newFailed" : false,
@@ -58,13 +58,13 @@
       "name" : "Share в OneList",
       "children" : [ {
         "name" : "shareTest",
-        "uid" : "838102c1546204ed",
+        "uid" : "72a68ce5fc47369c",
         "parentUid" : "c1431b9839703195f5297cb5e5560b4a",
         "status" : "passed",
         "time" : {
-          "start" : 1585408439328,
-          "stop" : 1585408446386,
-          "duration" : 7058
+          "start" : 1585852422947,
+          "stop" : 1585852425804,
+          "duration" : 2857
         },
         "flaky" : false,
         "newFailed" : false,
