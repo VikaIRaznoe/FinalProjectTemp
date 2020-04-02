@@ -1,12 +1,12 @@
 {
-  "uid" : "72a68ce5fc47369c",
-  "name" : "shareTest",
-  "fullName" : "tests.FirstTest.shareTest",
-  "historyId" : "a4b4c61188e2cba9ff0af704657fc857",
+  "uid" : "a051e359b1935115",
+  "name" : "checkFlipScreen",
+  "fullName" : "tests.FirstTest.checkFlipScreen",
+  "historyId" : "d3a197d2fae2a631f1bc34021f0340cc",
   "time" : {
-    "start" : 1585852422947,
-    "stop" : 1585852425804,
-    "duration" : 2857
+    "start" : 1585858724979,
+    "stop" : 1585858732376,
+    "duration" : 7397
   },
   "description" : "Итоговая работа",
   "descriptionHtml" : "<p>Итоговая работа</p>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1585852363025,
-      "stop" : 1585852378285,
-      "duration" : 15260
+      "start" : 1585858685586,
+      "stop" : 1585858698181,
+      "duration" : 12595
     },
     "description" : "",
     "status" : "passed",
@@ -33,9 +33,9 @@
   "afterStages" : [ {
     "name" : "tearDown",
     "time" : {
-      "start" : 1585852425805,
-      "stop" : 1585852425954,
-      "duration" : 149
+      "start" : 1585858744645,
+      "stop" : 1585858744740,
+      "duration" : 95
     },
     "description" : "",
     "status" : "passed",
@@ -55,7 +55,7 @@
     "value" : "tests.FirstTest"
   }, {
     "name" : "testMethod",
-    "value" : "shareTest"
+    "value" : "checkFlipScreen"
   }, {
     "name" : "parentSuite",
     "value" : "Default Suite"
@@ -70,7 +70,7 @@
     "value" : "MacBook-Pro-Viktoria.local"
   }, {
     "name" : "thread",
-    "value" : "88292@MacBook-Pro-Viktoria.local.main(1)"
+    "value" : "95304@MacBook-Pro-Viktoria.local.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -79,7 +79,7 @@
     "value" : "java"
   }, {
     "name" : "story",
-    "value" : "Share в OneList"
+    "value" : "Проверка и переворот экрана в OneList"
   }, {
     "name" : "epic",
     "value" : "Проект #1"
@@ -97,6 +97,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "72a68ce5fc47369c.json",
+  "source" : "a051e359b1935115.json",
   "parameterValues" : [ ]
 }

@@ -1,11 +1,11 @@
 {
-  "uid" : "5f02b7357a395946",
+  "uid" : "2b9414716a08fa19",
   "name" : "modificationTest",
   "fullName" : "tests.FirstTest.modificationTest",
   "historyId" : "8dcd76092b4f1ad32c9eb74936e71d84",
   "time" : {
-    "start" : 1585852362946,
-    "stop" : 1585852362947,
+    "start" : 1585858675474,
+    "stop" : 1585858675475,
     "duration" : 1
   },
   "description" : "Итоговая работа",
@@ -38,7 +38,7 @@
     "value" : "MacBook-Pro-Viktoria.local"
   }, {
     "name" : "thread",
-    "value" : "88292@MacBook-Pro-Viktoria.local.main(1)"
+    "value" : "95304@MacBook-Pro-Viktoria.local.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -65,6 +65,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5f02b7357a395946.json",
+  "source" : "2b9414716a08fa19.json",
   "parameterValues" : [ ]
 }

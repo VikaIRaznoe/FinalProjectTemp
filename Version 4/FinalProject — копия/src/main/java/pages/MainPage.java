@@ -2,24 +2,16 @@ package pages;
 
 import general.DriverManager;
 import general.GeneralMethods;
-import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.clipboard.HasClipboard;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import static general.GeneralMethods.waitForElementPresentRefact;
 
-public class MainPage extends BasePage{
+public class MainPage {
 
     By elementTODO = By.xpath("//*[contains(@text,'TODO')]");
     By enjoyText = By.id("text");
@@ -28,7 +20,6 @@ public class MainPage extends BasePage{
     By elementUserList = By.xpath("//*[contains(@text,'List 1')]");
     By elementShareList = By.id("buttonShareList");
     By elementCopyToClipBoard = By.xpath("//*[contains(@text,'Copy to clipboard')]");
-    private String APPIUM_SERVER = "http://localhost:4723/wd/hub";
 
     public void openListTODO(){
         waitForElementPresentRefact(elementTODO,5).click();

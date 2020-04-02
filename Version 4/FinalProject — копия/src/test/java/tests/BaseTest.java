@@ -10,7 +10,6 @@ import java.net.URL;
 
 
 public class BaseTest {
-   // private File app = new File("src/test/resources/apps/com.lolo.io.onelist_12.apk");
 
     @BeforeClass
     public void setUp() throws MalformedURLException {
@@ -21,7 +20,6 @@ public class BaseTest {
         caps.setCapability("appPackage","");
         caps.setCapability("appActivity","");
         caps.setCapability("app","/Users/viktoria/IdeaProjects/Java/FinalProject/src/test/resources/Apps/com.lolo.io.onelist_12.apk");
-        //caps.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT,80);
 
         URL appiumURL = new URL("http://127.0.0.1:4723/wd/hub");
         DriverManager.initializeDriver(appiumURL, caps);
